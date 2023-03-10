@@ -1,0 +1,168 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+
+/* Tailwind layout code */
+.plugin-pages:not(.mdx-wrapper) h1,
+.plugin-pages:not(.mdx-wrapper) h2,
+.plugin-pages:not(.mdx-wrapper) h3,
+.plugin-pages:not(.mdx-wrapper) h4,
+.plugin-pages:not(.mdx-wrapper) h5,
+.plugin-pages:not(.mdx-wrapper) h6 {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: 1.11;
+}
+
+.plugin-pages:not(.mdx-wrapper):not(.mdx-wrapper) footer.footer {
+  display: none;
+}
+
+.plugin-pages:not(.mdx-wrapper) ol,
+.plugin-pages:not(.mdx-wrapper) ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.plugin-pages:not(.mdx-wrapper) *,
+.plugin-pages:not(.mdx-wrapper):after,
+.plugin-pages:not(.mdx-wrapper):before{
+  border-width: 0;
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+}
+
+.plugin-pages:not(.mdx-wrapper) [type=button],
+.plugin-pages:not(.mdx-wrapper) [type=reset],
+.plugin-pages:not(.mdx-wrapper) [type=submit],
+.plugin-pages:not(.mdx-wrapper) button {
+  -webkit-appearance: button;
+  background-color: transparent;
+  background-image: none;
+}
+
+.plugin-pages:not(.mdx-wrapper) audio,
+.plugin-pages:not(.mdx-wrapper) canvas,
+.plugin-pages:not(.mdx-wrapper) embed,
+.plugin-pages:not(.mdx-wrapper) iframe,
+.plugin-pages:not(.mdx-wrapper) img,
+.plugin-pages:not(.mdx-wrapper) object,
+.plugin-pages:not(.mdx-wrapper) svg,
+.plugin-pages:not(.mdx-wrapper) video {
+    display: block;
+    vertical-align: middle;
+}
+
+.plugin-pages:not(.mdx-wrapper) button,
+.plugin-pages:not(.mdx-wrapper) input,
+.plugin-pages:not(.mdx-wrapper) optgroup,
+.plugin-pages:not(.mdx-wrapper) select,
+.plugin-pages:not(.mdx-wrapper) textarea{
+  color: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* Add fonts */
+@font-face {
+  font-family: "Roboto Mono";
+  font-weight: 400;
+  src: url("../fonts/RobotoMono-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto Mono";
+  font-weight: 600;
+  src: url("../fonts/RobotoMono-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto Mono";
+  font-weight: 700;
+  src: url("../fonts/RobotoMono-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  font-weight: 400;
+  src: url("../fonts/NotoSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Noto Sans";
+  font-weight: 600;
+  src: url("../fonts/NotoSans-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Noto Sans";
+  font-weight: 700;
+  src: url("../fonts/NotoSans-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Noto Sans";
+  font-weight: 500;
+  src: url("../fonts/NotoSans-Medium.ttf") format("truetype");
+}
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #3634e5;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #9f9fea;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme="dark"] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+footer.footer {
+  background: rgb(30,72,228);
+  background: linear-gradient(90deg, rgba(30,72,228,1) 0%, rgba(53,52,229,1) 100%);
+  color: white;
+}
