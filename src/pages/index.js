@@ -13,7 +13,7 @@ function LandingContent() {
 
     return (
 
-    <div className="w-full max-w-screen-3xl sm:mt-10 mt-10 overflow-hidden z-10 tailwind-layout">
+    <div className="w-full max-w-screen-3xl sm:mt-10 mt-10 overflow-hidden z-10 tailwind-layout bg-white-200">
         <img src="/img/header-shadow.svg" className="absolute z-0 right-0 top-0 pointer-events-none" />
         <div className="lg:px-36 md:px-16 sm:px-7 px-3">
             <div className="flex sm:mt-28 sm-max:mt-16 justify-between sm:flex-row flex-col sm-max:items-center sm-max:relative">
