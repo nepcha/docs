@@ -30,16 +30,16 @@ class Footer extends React.Component {
                         <ul className="list-none mix-blend-normal opacity-80 space-y-2 mt-2 text-white-100">
 
                             <li>
-                                <a className='text-white-100' href="https://nepcha.com/">Nepcha</a>
+                                <a className='text-white-100' href="/"target={'_blank'}>Nepcha</a>
                             </li>
                             <li>
-                                <a className='text-white-100' href="https://github.com/nepcha">Github</a>
+                                <a className='text-white-100' href="https://github.com/nepcha" target={'_blank'}>Github</a>
                             </li>
                             <li>
-                                <a className='text-white-100' href="https://twitter.com/NepchaTeam">Twitter</a>
+                                <a className='text-white-100' href="https://twitter.com/NepchaTeam" target={'_blank'}>Twitter</a>
                             </li>
                             <li>
-                                <a className='text-white-100' href="https://github.com/nepcha/docs">Github Docs</a>
+                                <a className='text-white-100' href="https://github.com/nepcha/docs" target={'_blank'}>Github Docs</a>
                             </li>
 
                         </ul>
@@ -49,13 +49,13 @@ class Footer extends React.Component {
                         <ul className="list-none mix-blend-normal opacity-80 space-y-2 mt-2">
 
                             <li>
-                                <a className='text-white-100' href="https://nepcha.com/terms/">Terms &amp; Conditions</a>
+                                <a className='text-white-100' href="/terms">Terms &amp; Conditions</a>
                             </li>
                             <li>
-                                <a className='text-white-100' href="https://nepcha.com/terms/privacy">Privacy Policy</a>
+                                <a className='text-white-100' href="/privacy">Privacy Policy</a>
                             </li>
                             <li>
-                                <a className='text-white-100' href="https://nepcha.com/terms/cookie-policy">Cookie Policy</a>
+                                <a className='text-white-100' href="/cookie-policy">Cookie Policy</a>
                             </li>
 
                         </ul>
