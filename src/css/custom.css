@@ -166,3 +166,7 @@ footer.footer {
   background: linear-gradient(90deg, rgba(30,72,228,1) 0%, rgba(53,52,229,1) 100%);
   color: white;
 }
+
+#__docusaurus {
+  background-color: #fcfcfc;
+}
