@@ -146,7 +146,7 @@ function LandingContent() {
                     <div className="flex mt-6 space-x-3">
                         <div className="bg-firstCustomer w-12 h-12 rounded-lg bg-cover bg-no-repeat"></div>
                         <div className="flex flex-col text-black-200 text-sm font-semibold">
-                            <h4 class="mb-1">Eugen Tudorache</h4>
+                            <h4 className="mb-1">Eugen Tudorache</h4>
                             <span>CTO @ UPDIVISION</span>
                         </div>
                     </div>
@@ -165,11 +165,11 @@ function LandingContent() {
                     <div className="flex mt-6 space-x-3">
                         <div className="bg-secondCustomer w-12 h-12 rounded-lg bg-cover bg-no-repeat"></div>
                         <div className="flex flex-col text-black-200 text-sm font-semibold">
-                            <h4 class="mb-1">Alexandru Paduraru</h4>
+                            <h4 className="mb-1">Alexandru Paduraru</h4>
                             <span>CEO @ Creative Tim</span>
                         </div>
                     </div>
-                    <p className="font-noto text-sm leading-6 text-gray-100 mt-5">At Creative Tim we deliver UI Tools like Admin Dashboards and UI Kits for over 2.1 million developers around the world. To make the best decisions you need trustworthy data sources, that's why we decided to switch to Nepcha.</p>
+                    <p className="font-noto text-sm leading-6 text-gray-100 mt-5">At Creative Tim we deliver UI Tools like Admin Dashboards and UI Kits for over 2+ million developers around the world. To make the best decisions you need trustworthy data sources, that's why we decided to switch to Nepcha.</p>
                     <div className="inline-flex space-x-2 mt-4 mb-5">
 
                         <img src="/img/feedbackStar.svg" />
@@ -184,7 +184,7 @@ function LandingContent() {
                     <div className="flex mt-6 space-x-3">
                         <div className="bg-thirdCustomer w-12 h-12 rounded-lg bg-cover bg-no-repeat"></div>
                         <div className="flex flex-col text-black-200 text-sm font-semibold">
-                            <h4 class="mb-1">Rares Toma</h4>
+                            <h4 className="mb-1">Rares Toma</h4>
                             <span>CEO @ Loopple Technologies</span>
                         </div>
                     </div>
