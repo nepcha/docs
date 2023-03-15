@@ -109,7 +109,7 @@ const config = {
           {
             type: 'html',
             position: 'right',
-            value: '<a href="https://app.nepcha.com/login" class="block w-full font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-white-100 hover:text-white-100 hover:no-underline shadow-md hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none text-xs py-3 px-6 rounded-lg bg-black-200 hover:shadow-black-200 text-sm w-32 no-underline">Sign Up</a>',
+            value: '<a href="https://app.nepcha.com/register" class="block w-full font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-white-100 hover:text-white-100 hover:no-underline shadow-md hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none text-xs py-3 px-6 rounded-lg bg-black-200 hover:shadow-black-200 text-sm w-32 no-underline">Sign Up</a>',
 
           },
         ],
@@ -120,6 +120,31 @@ const config = {
           alt: 'Nepcha Logo',
           src: 'img/logoFooter.png',
         },
+        links: [
+          {},
+          {
+            items: [
+              {
+                html: `
+                <span class="font-semibold">Company</span>
+                <ul class="list-none mix-blend-normal opacity-80 space-y-2 mt-2 text-white-100"><li><a class="text-white-100" href="/" target="_blank">Nepcha</a></li><li><a class="text-white-100" href="https://github.com/nepcha" target="_blank">Github</a></li><li><a class="text-white-100" href="https://twitter.com/NepchaTeam" target="_blank">Twitter</a></li><li><a class="text-white-100" href="https://github.com/nepcha/docs" target="_blank">Github Docs</a></li></ul>
+                  `,
+
+              },
+            ],
+          },
+          {
+            title: 'Legal',
+            items: [
+              {
+                html: `
+                <ul class="list-none mix-blend-normal opacity-80 space-y-2 mt-2"><li><a class="text-white-100" href="/terms">Terms &amp; Conditions</a></li><li><a class="text-white-100" href="/privacy">Privacy Policy</a></li><li><a class="text-white-100" href="/cookie-policy">Cookie Policy</a></li></ul>
+                `
+              }
+            ],
+          },
+          {}
+        ]
       },
 
       prism: {
