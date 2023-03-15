@@ -31,7 +31,7 @@ function LandingContent() {
                                 Demo Data
                             </a>
                             <a href="https://app.nepcha.com/register" className="font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-white-100 shadow-md hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none text-xs py-3 px-4 rounded-lg bg-black-200 hover:shadow-black-200 text-sm w-32">
-                                Get Started
+                                Signup
                             </a>
                         </div>
                     </div>
@@ -82,7 +82,7 @@ function LandingContent() {
                 <div>
                     <div>
                         <a href="https://app.nepcha.com/register" className="font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-white-100 shadow-md hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none text-xs py-3 px-4 rounded-lg bg-black-200 hover:shadow-black-200 text-sm w-32">
-                            Get Started
+                            Signup
                         </a>
                     </div>
                 </div>
@@ -269,7 +269,7 @@ function LandingContent() {
                         </div>
                     </div>
                     <a href="https://app.nepcha.com/register" className="block w-full font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-white-100 shadow-md hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none text-xs py-3 px-4 rounded-lg bg-black-200 hover:shadow-black-200 text-sm mb-5">
-                        Get Started
+                        Signup
                     </a>
                 </div>
                 <div className="border border-gray-300 bg-white-100 hover:drop-shadow shadow-black-300 px-5 rounded-md flex flex-col justify-between xl:w-[29%]">
@@ -318,7 +318,7 @@ function LandingContent() {
                         </div>
                     </div>
                     <a href="https://app.nepcha.com/register" className="block w-full font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-white-100 shadow-md hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none text-xs py-3 px-4 rounded-lg bg-black-200 hover:shadow-black-200 text-sm mb-5">
-                        Get Started
+                        Signup
                     </a>
                 </div>
                 <div className="border border-gray-300 bg-white-100 hover:drop-shadow shadow-black-300 px-5 rounded-md flex flex-col justify-between xl:w-[29%]">
@@ -370,11 +370,8 @@ function LandingContent() {
 
                         </div>
                     </div>
-                    <a href="https://app.nepcha.com/register">
-                        <button className="block w-full font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-white-100 shadow-md hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none text-xs py-3 px-4 rounded-lg bg-black-200 hover:shadow-black-200 text-sm mb-5">
-        Get Started
-
-                        </button>
+                    <a href="https://app.nepcha.com/register" className="block w-full font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-white-100 shadow-md hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none text-xs py-3 px-4 rounded-lg bg-black-200 hover:shadow-black-200 text-sm mb-5">
+                        Signup
                     </a>
                 </div>
 
