@@ -48,3 +48,14 @@ Copy the following script and paste it into the `<head>` section of your site:
 Where:
 - `data-site` is the domain name of your site. For example, if your site is `https://example.com`, then `data-site` should be `example.com`.
 - `src` is the URL of the Nepcha Analytics script.
+
+
+## Where can you find the snippet
+
+1. First, you have to go to [your sites](https://app.nepcha.com/sites) page, and here click on the settings icon.
+
+   <img src="/img/docs/nepcha-sites-page.png" width="592" />
+
+2. Now you will be redirected to the site's settings. Here, in the "General Information" section, you will find the JavaScript snippet.
+
+   <img src="/img/docs/nepcha-sites-settings.png" width="592" />
