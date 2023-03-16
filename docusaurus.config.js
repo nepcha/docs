@@ -134,13 +134,10 @@ const config = {
                     <a class="text-white-100" href="/" target="_blank">Nepcha</a>
                   </li>
                   <li>
-                    <a class="text-white-100" href="https://github.com/nepcha" target="_blank">Github</a>
+                    <a class="text-white-100" href="https://github.com/nepcha/docs" target="_blank">Github</a>
                   </li>
                   <li>
                     <a class="text-white-100" href="https://twitter.com/NepchaTeam" target="_blank">Twitter</a>
-                  </li>
-                  <li>
-                    <a class="text-white-100" href="https://github.com/nepcha/docs" target="_blank">Github Docs</a>
                   </li>
                 </ul>
                   `,
