@@ -15,9 +15,9 @@ function LandingContent() {
 
     return (
 
-    <div className="w-full max-w-screen-3xl sm:mt-10 mt-10 overflow-hidden z-10 tailwind-layout bg-white-200">
+    <div className="w-full max-w-screen-3xl overflow-hidden z-10 tailwind-layout">
         <img src="/img/header-shadow.svg" className="absolute z-0 right-0 top-0 pointer-events-none" />
-        <div className="lg:px-36 md:px-16 sm:px-7 px-3">
+        <div className="lg:px-36 md:px-14 sm:px-7 px-3">
             <div className="flex sm:mt-28 sm-max:mt-16 justify-between sm:flex-row flex-col sm-max:items-center sm-max:relative">
                 <div className="sm:w-1/2 w-4/5 sm-max:mb-7 sm-max:z-10 lg:flex lg:flex-col lg:justify-center">
                     <div className="2xl:text-5xl xl:text-4xl xl:leading-md md:text-3xl sm:text-2xl text-xl 2xl:max-w-lg md:w-full xl:max-w-sm md:max-w-xs">
@@ -38,7 +38,9 @@ function LandingContent() {
                         </div>
                     </div>
                 </div>
-                <div className="lg:w-1/2 lg:h-[550px] sm:w-1/3 w-4/5 bg-synops bg-no-repeat bg-contain sm:bg-right bg-center sm-max:h-52 sm-max:absolute sm-max:right-0 sm-max:opacity-30 sm-max:translate-x-[35%] sm-max:-translate-y-[30%]"></div>
+                <div className="lg:w-1/2 lg:h-[550px] md:w-2/3 sm:w-1/3 w-4/5 sm:bg-right sm-max:h-52 sm-max:absolute sm-max:right-0 sm-max:opacity-30 sm-max:translate-x-[35%] sm-max:-translate-y-[20%] flex items-center">
+                  <img src="/img/laptop.png" class="w-100" alt="laptop-nepcha"/>
+                </div>
             </div>
         </div>
 
