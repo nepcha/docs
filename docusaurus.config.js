@@ -37,7 +37,7 @@ const config = {
 
   // Add scripts
   scripts: [
-    {src: 'https://api.nepcha.com/js/tracker.js', defer: true, 'data-site': 'nepcha.com'}
+    {src: 'https://api.nepcha.com/js/tracker3.js', defer: true, 'data-site': 'nepcha.com'}
   ],
 
   plugins: [
