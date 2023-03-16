@@ -18,7 +18,7 @@ class Footer extends React.Component {
                         <a href="https://twitter.com/NepchaTeam">
                             <img src="/img/social/twitter.svg?sprite" />
                         </a>
-                        <a href="https://github.com/nepcha">
+                        <a href="https://github.com/nepcha/docs">
                             <img src="/img/social/github.svg?sprite" />
                         </a>
 
@@ -33,7 +33,7 @@ class Footer extends React.Component {
                                 <a className='text-white-100' href="/"target={'_blank'}>Nepcha</a>
                             </li>
                             <li>
-                                <a className='text-white-100' href="https://github.com/nepcha" target={'_blank'}>Github</a>
+                                <a className='text-white-100' href="https://github.com/nepcha/docs" target={'_blank'}>Github</a>
                             </li>
                             <li>
                                 <a className='text-white-100' href="https://twitter.com/NepchaTeam" target={'_blank'}>Twitter</a>
