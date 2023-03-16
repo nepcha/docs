@@ -13,9 +13,9 @@ function LandingContent() {
 
     return (
 
-    <div className="w-full max-w-screen-3xl sm:mt-10 mt-10 overflow-hidden z-10 tailwind-layout bg-white-200">
+    <div className="w-full max-w-screen-3xl overflow-hidden z-10 tailwind-layout">
         <img src="/img/header-shadow.svg" className="absolute z-0 right-0 top-0 pointer-events-none" />
-        <div className="lg:px-36 md:px-16 sm:px-7 px-3">
+        <div className="lg:px-36 md:px-14 sm:px-7 px-3">
             <div className="flex sm:mt-28 sm-max:mt-16 justify-between sm:flex-row flex-col sm-max:items-center sm-max:relative">
                 <div className="sm:w-1/2 w-4/5 sm-max:mb-7 sm-max:z-10 lg:flex lg:flex-col lg:justify-center">
                     <div className="2xl:text-5xl xl:text-4xl xl:leading-md md:text-3xl sm:text-2xl text-xl 2xl:max-w-lg md:w-full xl:max-w-sm md:max-w-xs">
@@ -27,16 +27,20 @@ function LandingContent() {
                     <div>
                         <p className="text-gray-100 md:text-lg sm:text-base text-lg font-noto xl:w-[70%] mt-3"> This solution ensures compliance with the GDPR, by not using cookies to track visitors. European data is stored in European cloud infrastructure, USA data is stored in USA cloud infrastructure. </p>
                         <div className="mt-6">
-                            <a href="https://app.nepcha.com/nepcha.com" className="font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-white-100 shadow-md hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none text-xs py-3 px-4 rounded-lg bg-purple-100 hover:shadow-purple-100 mr-4 md:mb-0 mb-4 text-sm w-32" target="_blank">
+                            <button className="font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-white-100 shadow-md hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none text-xs py-3 px-4 rounded-lg bg-purple-100 hover:shadow-purple-100 mr-4 md:mb-0 mb-4 text-sm w-32">
                                 Demo Data
-                            </a>
-                            <a href="https://app.nepcha.com/register" className="font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-white-100 shadow-md hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none text-xs py-3 px-4 rounded-lg bg-black-200 hover:shadow-black-200 text-sm w-32">
-                                Signup
+                            </button>
+                            <a href="https://app.nepcha.com/register">
+                                <button className="font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-white-100 shadow-md hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none text-xs py-3 px-4 rounded-lg bg-black-200 hover:shadow-black-200 text-sm w-32">
+                                    Get Started
+                                </button>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div className="lg:w-1/2 lg:h-[550px] sm:w-1/3 w-4/5 bg-synops bg-no-repeat bg-contain sm:bg-right bg-center sm-max:h-52 sm-max:absolute sm-max:right-0 sm-max:opacity-30 sm-max:translate-x-[35%] sm-max:-translate-y-[30%]"></div>
+                <div className="lg:w-1/2 lg:h-[550px] md:w-2/3 sm:w-1/3 w-4/5 sm:bg-right sm-max:h-52 sm-max:absolute sm-max:right-0 sm-max:opacity-30 sm-max:translate-x-[35%] sm-max:-translate-y-[20%] flex items-center">
+                  <img src="/img/laptop.png" class="w-100" alt="laptop-nepcha"/>
+                </div>
             </div>
         </div>
 
@@ -81,9 +85,10 @@ function LandingContent() {
                 </p>
                 <div>
                     <div>
-                        <a href="https://app.nepcha.com/register" className="font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-white-100 shadow-md hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none text-xs py-3 px-4 rounded-lg bg-black-200 hover:shadow-black-200 text-sm w-32">
-                            Signup
-                        </a>
+                        <button className="font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-white-100 shadow-md hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none text-xs py-3 px-4 rounded-lg bg-black-200 hover:shadow-black-200 text-sm w-32">
+                            Get Started
+
+                        </button>
                     </div>
                 </div>
             </div>
@@ -121,9 +126,10 @@ function LandingContent() {
             <div className="flex flex-col xl:w-3/5 w-2/4 sm:pl-9 pl-4 justify-center pt-6 pb-6">
                 <span className="font-noto xl:text-base lg:text-sm text-xs leading-10 font-bold text-white-100">Simple charts &amp; Data Visualisation</span>
                 <p className="font-noto xl:text-3xl lg:text-xl sm:text-base text-xs xl:leading-10 font-bold text-white-100 w-5/6 mt-2"> Start tracking up to 10.000 visits on multiple websites for free. Share stats with your team in a beautiful way.</p>
-                <a href="https://app.nepcha.com/register" className="font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-white-100 shadow-md hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none text-xs py-3 px-4 rounded-lg sm:w-32 sm:text-xs w-28 text-[10px] mt-4 bg-white-100/20 hover:bg-white-100/40 border border-white-100/40">
+                <button className="font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-white-100 shadow-md hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none text-xs py-3 px-4 rounded-lg sm:w-32 sm:text-xs w-28 text-[10px] mt-4 bg-white-100/20 hover:bg-white-100/40 border border-white-100/40">
                     Free Signup
-                </a>
+
+                </button>
             </div>
             <div className="bg-sidegoalconversion bg-no-repeat bg-center flex justify-center items-center xl:w-2/5 w-2/4">
                 <img src="/img/logoWhite.png" className="w-32 h-32" />
@@ -144,7 +150,7 @@ function LandingContent() {
                     <div className="flex mt-6 space-x-3">
                         <div className="bg-firstCustomer w-12 h-12 rounded-lg bg-cover bg-no-repeat"></div>
                         <div className="flex flex-col text-black-200 text-sm font-semibold">
-                            <h4 className="mb-1">Eugen Tudorache</h4>
+                            <h4 class="mb-1">Eugen Tudorache</h4>
                             <span>CTO @ UPDIVISION</span>
                         </div>
                     </div>
@@ -163,11 +169,11 @@ function LandingContent() {
                     <div className="flex mt-6 space-x-3">
                         <div className="bg-secondCustomer w-12 h-12 rounded-lg bg-cover bg-no-repeat"></div>
                         <div className="flex flex-col text-black-200 text-sm font-semibold">
-                            <h4 className="mb-1">Alexandru Paduraru</h4>
+                            <h4 class="mb-1">Alexandru Paduraru</h4>
                             <span>CEO @ Creative Tim</span>
                         </div>
                     </div>
-                    <p className="font-noto text-sm leading-6 text-gray-100 mt-5">At Creative Tim we deliver UI Tools like Admin Dashboards and UI Kits for over 2+ million developers around the world. To make the best decisions you need trustworthy data sources, that's why we decided to switch to Nepcha.</p>
+                    <p className="font-noto text-sm leading-6 text-gray-100 mt-5">At Creative Tim we deliver UI Tools like Admin Dashboards and UI Kits for over 2.1 million developers around the world. To make the best decisions you need trustworthy data sources, that's why we decided to switch to Nepcha.</p>
                     <div className="inline-flex space-x-2 mt-4 mb-5">
 
                         <img src="/img/feedbackStar.svg" />
@@ -182,7 +188,7 @@ function LandingContent() {
                     <div className="flex mt-6 space-x-3">
                         <div className="bg-thirdCustomer w-12 h-12 rounded-lg bg-cover bg-no-repeat"></div>
                         <div className="flex flex-col text-black-200 text-sm font-semibold">
-                            <h4 className="mb-1">Rares Toma</h4>
+                            <h4 class="mb-1">Rares Toma</h4>
                             <span>CEO @ Loopple Technologies</span>
                         </div>
                     </div>
@@ -268,8 +274,11 @@ function LandingContent() {
 
                         </div>
                     </div>
-                    <a href="https://app.nepcha.com/register" className="block w-full font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-white-100 shadow-md hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none text-xs py-3 px-4 rounded-lg bg-black-200 hover:shadow-black-200 text-sm mb-5">
-                        Signup
+                    <a href="https://app.nepcha.com/register">
+                        <button className="block w-full font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-white-100 shadow-md hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none text-xs py-3 px-4 rounded-lg bg-black-200 hover:shadow-black-200 text-sm mb-5">
+        Get Started
+
+                        </button>
                     </a>
                 </div>
                 <div className="border border-gray-300 bg-white-100 hover:drop-shadow shadow-black-300 px-5 rounded-md flex flex-col justify-between xl:w-[29%]">
@@ -317,8 +326,11 @@ function LandingContent() {
 
                         </div>
                     </div>
-                    <a href="https://app.nepcha.com/register" className="block w-full font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-white-100 shadow-md hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none text-xs py-3 px-4 rounded-lg bg-black-200 hover:shadow-black-200 text-sm mb-5">
-                        Signup
+                    <a href="https://app.nepcha.com/register">
+                        <button className="block w-full font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-white-100 shadow-md hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none text-xs py-3 px-4 rounded-lg bg-black-200 hover:shadow-black-200 text-sm mb-5">
+        Get Started
+
+                        </button>
                     </a>
                 </div>
                 <div className="border border-gray-300 bg-white-100 hover:drop-shadow shadow-black-300 px-5 rounded-md flex flex-col justify-between xl:w-[29%]">
@@ -370,8 +382,11 @@ function LandingContent() {
 
                         </div>
                     </div>
-                    <a href="https://app.nepcha.com/register" className="block w-full font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-white-100 shadow-md hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none text-xs py-3 px-4 rounded-lg bg-black-200 hover:shadow-black-200 text-sm mb-5">
-                        Signup
+                    <a href="https://app.nepcha.com/register">
+                        <button className="block w-full font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-white-100 shadow-md hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none text-xs py-3 px-4 rounded-lg bg-black-200 hover:shadow-black-200 text-sm mb-5">
+        Get Started
+
+                        </button>
                     </a>
                 </div>
 
