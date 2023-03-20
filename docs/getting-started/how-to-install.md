@@ -21,7 +21,7 @@ export const GetScript = () => {
     <BrowserOnly>
       {() => {
         const current_site = new URLSearchParams(window.location.search).get('site') || 'example.com';
-        return <CodeBlock className="language-html"> {`<script defer data-site="${current_site}" src="https://api.nepcha.com/js/tracker.js"></script>` } </CodeBlock>;
+        return <CodeBlock className="language-html"> {`<script defer data-site="${current_site}" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>` } </CodeBlock>;
         }
       }
     </BrowserOnly>
