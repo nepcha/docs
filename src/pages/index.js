@@ -17,17 +17,20 @@ function LandingContent() {
     const { siteConfig } = useDocusaurusContext();
 
     return (
-
-    <div className="w-full max-w-screen-3xl overflow-hidden z-10 tailwind-layout">
-       <Header />
-        <FeaturesSection />
-        <Screens />
-        <Banner />
-        <Testimonials />
-        <Pricing />
-        <FaqSection />
-        <Footer />
-    </div>
+      <div>
+        <div className="w-full max-w-screen-3xl overflow-hidden z-10 tailwind-layout mx-auto">
+         <Header />
+          <FeaturesSection />
+          <Screens />
+          <Banner />
+          <Testimonials />
+          <Pricing />
+          <FaqSection />
+        </div>
+        <div>
+          <Footer />
+        </div>
+      </div>
     );
 }
 
