@@ -5,7 +5,7 @@ class Footer extends React.Component {
     return (
       <div className="lg:mt-20 mt-14">
         <footer className="lg:px-36 md:px-16 sm:px-7 px-3 bg-gradient-to-r from-blue-200 to-purple-100 flex flex-col">
-            <div className="flex lg:flex-row flex-col lg:space-y-0 space-y-5 justify-between mt-7 mb-16">
+            <div className="flex lg:flex-row flex-col lg:space-y-0 space-y-5 justify-between mt-7 mb-16 w-full max-w-screen-3xl mx-auto">
                 <div>
                     <div className="inline-flex mb-3">
                         <img src="/img/logoFooter.png" className="h-7" />
