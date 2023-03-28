@@ -1,9 +1,12 @@
 ---
 sidebar_position: 1
 title: Create Account
+description: See how you can create an account on Nepcha, the simplest privacy-focused web analytics tool for companies & startups that works as an alternative for Google Analytics.
 ---
 
-# Create Account
+<head>
+  <title>How to Create Account - Nepcha Analytics Documentation</title>
+</head>
 
 ## Create an account to get started with Nepcha Analytics
 
