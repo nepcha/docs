@@ -27,7 +27,7 @@ class Header extends React.Component {
                   </div>
               </div>
               <div className="lg:w-1/2 lg:h-[550px] md:w-2/3 sm:w-1/3 w-4/5 sm:bg-right sm-max:h-52 sm-max:absolute sm-max:right-0 sm-max:opacity-30 sm-max:translate-x-[35%] sm-max:-translate-y-[20%] flex items-center">
-                <img src="/img/laptop.png" class="w-100" alt="laptop-nepcha"/>
+                <img src="/img/laptop.png" class="w-100" title="google web analytics alternative" alt="google web analytics alternative"/>
               </div>
           </div>
       </div>
