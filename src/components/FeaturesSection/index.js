@@ -66,7 +66,7 @@ export default function FeaturesSection() {
                 Gain insights into your sources of traffic. Nepcha is a easy-to-use web analytics. No cookies and fully compliant with GDPR, CCPA and PECR.
               </p>
               <div className="flex justify-center relative w-full">
-                  <img src="/img/laptop.png" className="lg:w-2/4 w-3/4 z-[1]" />
+                  <img src="/img/laptop.png" className="lg:w-2/4 w-3/4 z-[1]" title="simple web analytics tool" alt="simple web analytics dashboard" />
                   <img src="/img/background_laptop.svg" className="absolute z-0 lg:-top-12" />
               </div>
           </div>
