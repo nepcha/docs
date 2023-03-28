@@ -21,7 +21,7 @@ class Screens extends React.Component {
                         </div>
                     </div>
                     <div className="bg-featureSizeRight bg-center lg:w-1/2 w-full lg:mb-0 mb-5 flex justify-center items-center bg-features">
-                        <img src="/img/privacy_analytics.png" width="592" className="xl:pr-0 lg:pr-24 xl:w-2/3 lg:w-full w-3/4 xl:ml-0 lg:ml-16" />
+                        <img src="/img/privacy_analytics.png" width="592" className="xl:pr-0 lg:pr-24 xl:w-2/3 lg:w-full w-3/4 xl:ml-0 lg:ml-16" title="user insights web analytics" alt="web analytics tool with user behavior insights" />
                     </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@ class Screens extends React.Component {
                         </div>
                     </div>
                     <div className="bg-featureSizeLeft bg-left lg:bg-repeat-y bg-repeat lg:w-1/2 w-full lg:mb-0 mb-5 flex justify-center items-center bg-features">
-                        <img src="/img/load_faster.png" width="592" className="xl:pl-0 lg:pl-24 xl:w-2/3 lg:w-full w-3/4" />
+                        <img src="/img/load_faster.png" width="592" className="xl:pl-0 lg:pl-24 xl:w-2/3 lg:w-full w-3/4" title="user friendly web analytics tool" alt="user friendly web analytics tool" />
                     </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@ class Screens extends React.Component {
                         </p>
                     </div>
                     <div className="bg-featureSizeRight bg-center lg:w-1/2 w-full lg:mb-0 mb-5 flex justify-center items-center bg-features">
-                        <img src="/img/privacy_analytics.png" width="592" className="xl:pr-0 lg:pr-24 xl:w-2/3 lg:w-full w-3/4 xl:ml-0 lg:ml-16" />
+                        <img src="/img/privacy_analytics.png" width="592" className="xl:pr-0 lg:pr-24 xl:w-2/3 lg:w-full w-3/4 xl:ml-0 lg:ml-16" title="privacy-focused web analytics" alt="privacy-focused web analytics tool preview" />
                     </div>
                 </div>
             </div>
