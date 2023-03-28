@@ -5,6 +5,22 @@ export default function FaqSection() {
 
   const items = [
     {
+      title: "Why use a Google Analytics Alternative?",
+      description: "There are several reasons for using an alternative for Google Analytics and the most important is the fact that Google collects a lot of data about your users and can use them for other purposes - this can look privacy-invasive. Also, Google Analytics is hard to use, difficult to understand, and very slow to load."
+    },
+    {
+      title: "What is a Privacy-Focused web analytics tool?",
+      description: "A privacy-focused web analytics tool is a tool that collects website users data while prioritizing user privacy. These tools are designed to minimize the amount of personally identifiable information that is collected, while still providing valuable insights into how people are using a website. For example, Nepcha does not use cookies to track visitors. European data is stored in European cloud infrastructure, USA data is stored in USA cloud infrastructure."
+    },
+    {
+      title: "Why web analytics is important?",
+      description: "Web analytics is essential for your online marketing efforts because it provides valuable insights into how people are using your website. By analyzing data such as traffic volume, user behavior, and conversion rates, you can make informed decisions about how to improve the user experience and the marketing strategy of your brand."
+    },
+    {
+      title: "What is Nepcha Analytics?",
+      description: "Nepcha is a simple web analytics tool designed to respect your users' privacy and to work as a Google Analytics alternative in the same time."
+    },
+    {
       title: "Is Nepcha GDPR compliant?",
       description:
         "Nepcha ensures compliance with the GDPR, by not using cookies to track visitors. European data is stored in European cloud infrastructure, USA data is stored in USA cloud infrastructure.",
