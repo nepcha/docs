@@ -1,9 +1,12 @@
 ---
 sidebar_position: 2
 title: How to install
+description: See how you can install Nepcha, the simplest privacy-focused web analytics tool for companies & startups that works as an alternative for Google Analytics.
 ---
 
-# How to install Nepcha Analytics
+<head>
+  <title>How to Install - Nepcha Analytics Documentation </title>
+</head>
 
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import CodeBlock from '@theme/CodeBlock';
