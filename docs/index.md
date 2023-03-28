@@ -10,6 +10,8 @@ description: Learn everything about Nepcha, the simplest privacy-focused web ana
 
 Nepcha Analytics is a privacy-focused analytics tool for companies & startups. This solution ensures compliance with the GDPR, by not using cookies to track visitors. European data is stored in European cloud infrastructure, USA data is stored in USA cloud infrastructure.
 
+<img src="/img/laptop.png" width="590" title="Nepcha Web Analytics" alt="Nepcha Web Analytics Documentation" className="my-5" />
+
 ## Features
 
 - **Quick and Easy to integrate** - Just one line of code for your website and you're set. No expertise required. Start tracking users in minutes.
