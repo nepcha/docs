@@ -39,8 +39,8 @@ export default function Home() {
 
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Nepcha Analytics is a privacy-focused analytics tool for companies & startups."
+      title={`${siteConfig.title} - The Privacy-Focused Web Analytics Tool`}
+      description="Nepcha is the simplest privacy-focused web analytics tool for companies & startups that works as an alternative for Google Analytics."
       wrapperClassName={'tailwind-layout'}
     >
         <main>
