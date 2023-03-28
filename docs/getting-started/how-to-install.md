@@ -54,8 +54,8 @@ Where:
 
 1. First, you have to go to [your sites](https://app.nepcha.com/sites) page, and here click on the settings icon.
 
-   <img src="/img/docs/nepcha-sites-page.png" width="592" />
+   <img src="/img/docs/nepcha-sites-page.png" width="592" title="install web analytics tool" alt="install web analytics tool" />
 
 2. Now you will be redirected to the site's settings. Here, in the "General Information" section, you will find the JavaScript snippet.
 
-   <img src="/img/docs/nepcha-sites-settings.png" width="592" />
+   <img src="/img/docs/nepcha-sites-settings.png" width="592" title="javascript web analytics tool" alt="javascript web analytics tool" />
