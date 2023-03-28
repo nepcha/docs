@@ -1,8 +1,12 @@
 ---
 sidebar_position: 1
+title: Overview
+description: Learn everything about Nepcha, the simplest privacy-focused web analytics tool for companies & startups that works as an alternative for Google Analytics.
 ---
 
-# Overview
+<head>
+  <title>Overview - Nepcha Analytics Documentation</title>
+</head>
 
 Nepcha Analytics is a privacy-focused analytics tool for companies & startups. This solution ensures compliance with the GDPR, by not using cookies to track visitors. European data is stored in European cloud infrastructure, USA data is stored in USA cloud infrastructure.
 
