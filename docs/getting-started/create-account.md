@@ -13,9 +13,9 @@ Nepcha Analytics is a privacy-focused analytics tool for companies & startups. T
 
 1. Go to [https://app.nepcha.com/register](https://app.nepcha.com/register)
 2. Create an account with your email address and password
-<img src="/img/docs/nepcha-register.png" width="592" />
+<img src="/img/docs/nepcha-register.png" width="592" title="create account web analytics tool" alt="create account web analytics tool" />
 
 3. Confirm your email address
-<img src="/img/docs/nepcha-activate-account.png" width="592" />
+<img src="/img/docs/nepcha-activate-account.png" width="592" title="activate account web analytics tool" alt="activate account web analytics tool" />
 
 After entering your account details, you will receive an email containing a 4-digit code. This code is used as an additional layer of security to verify your identity and ensure that only you have access to your account.
