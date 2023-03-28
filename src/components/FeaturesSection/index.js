@@ -63,7 +63,7 @@ export default function FeaturesSection() {
                 Discover the origin of your users and the pages they visit. 
               </h2>
               <p className="text-gray-100 font-noto sm:text-lg text-sm sm:leading-sm text-center max-w-xl mb-8 mt-2">
-                Gain insights into your sources of traffic. Nepcha is a easy-to-use and open source web analytics. No cookies and fully compliant with GDPR, CCPA and PECR.
+                Gain insights into your sources of traffic. Nepcha is a easy-to-use web analytics. No cookies and fully compliant with GDPR, CCPA and PECR.
               </p>
               <div className="flex justify-center relative w-full">
                   <img src="/img/laptop.png" className="lg:w-2/4 w-3/4 z-[1]" />
