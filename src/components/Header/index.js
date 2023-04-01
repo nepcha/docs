@@ -17,7 +17,7 @@ class Header extends React.Component {
                   <div>
                       <p className="text-gray-100 md:text-lg sm:text-base text-lg font-noto xl:w-[70%] mt-3"> This solution ensures compliance with the GDPR, by not using cookies to track visitors. European data is stored in European cloud infrastructure, USA data is stored in USA cloud infrastructure. </p>
                       <div className="mt-6">
-                          <a href="https://app.nepcha.com/nepcha.com" className="font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-white-100 shadow-md hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none text-xs py-3 px-4 rounded-lg bg-purple-100 hover:shadow-purple-100 mr-4 md:mb-0 mb-4 text-sm w-32" target="_blank">
+                          <a href="https://nepcha.com/site/nepcha.com" className="font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-white-100 shadow-md hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none text-xs py-3 px-4 rounded-lg bg-purple-100 hover:shadow-purple-100 mr-4 md:mb-0 mb-4 text-sm w-32" target="_blank">
                               Demo Data
                           </a>
                           <a href="https://app.nepcha.com/register" className="font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-white-100 shadow-md hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none text-xs py-3 px-4 rounded-lg bg-black-200 hover:shadow-black-200 text-sm w-32">
