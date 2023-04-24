@@ -63,7 +63,7 @@ export default function BadgeSection() {
                   Nepcha badges for use on social media and other digital platforms
                 </h2>
                 <p className="text-gray-100 font-noto sm:text-lg text-sm sm:leading-sm text-center max-w-xl mb-8 mt-2">
-                By providing these logos in various formats and sizes, users can choose the best option for their specific use case and ensure that the Nepcha brand is represented accurately and consistently.
+                Use one of the badges below if you want to represent Nepcha on social media or other digital platforms. Choose the badge version that best fits your need.
                 </p>
             </div>
             <div className="flex justify-center items-center">
