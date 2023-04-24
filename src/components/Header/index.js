@@ -9,10 +9,12 @@ class Header extends React.Component {
           <div className="flex sm:mt-28 sm-max:mt-16 justify-between sm:flex-row flex-col sm-max:items-center sm-max:relative">
               <div className="sm:w-1/2 w-4/5 sm-max:mb-7 sm-max:z-10 lg:flex lg:flex-col lg:justify-center">
                   <div className="2xl:text-5xl xl:text-4xl xl:leading-md md:text-3xl sm:text-2xl text-xl 2xl:max-w-lg md:w-full xl:max-w-sm md:max-w-xs">
-                      <h2 className="text-purple-100 font-bold mb-0">
+                      <h1 className="text-purple-100 font-bold mb-0">
                       Nepcha Analytics
+                      </h1>
+                      <h2 className="text-gray-200 dark:text-white font-bold mb-1">
+                        A privacy-focused analytics tool for companies & startups.
                       </h2>
-                      <h1 className="text-gray-200 dark:text-white font-bold mb-1">A privacy-focused analytics tool for companies & startups.</h1>
                   </div>
                   <div>
                       <p className="text-gray-100 md:text-lg sm:text-base text-lg font-noto xl:w-[70%] mt-3"> This solution ensures compliance with the GDPR, by not using cookies to track visitors. European data is stored in European cloud infrastructure, USA data is stored in USA cloud infrastructure. </p>
