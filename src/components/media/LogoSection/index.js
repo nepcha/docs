@@ -76,10 +76,10 @@ export default function LogoSection() {
       <div className="lg:mt-40 mt-32 lg:px-36 md:px-16 sm:px-7 px-5">
         <div className="flex flex-col">
             <div className="flex flex-col justify-center items-center mb-16">
-                <h3 className="font-semibold sm:text-xl text-base text-purple-100 mb-px"> 
+                <h3 className="font-semibold sm:text-xl text-base text-purple-100 mb-px">
                   The Nepcha logo
                 </h3>
-                <h2 className="font-extrabold lg:text-4xl md:text-3xl sm:text-2xl text-xl lg:leading-lg text-gray-200 text-center max-w-2xl"> 
+                <h2 className="font-extrabold lg:text-4xl md:text-3xl sm:text-2xl text-xl lg:leading-lg text-gray-200 text-center max-w-2xl">
                   Official Nepcha logos in various formats and sizes
                 </h2>
                 <p className="text-gray-100 font-noto sm:text-lg text-sm sm:leading-sm text-center max-w-xl mb-8 mt-2">
@@ -88,13 +88,13 @@ export default function LogoSection() {
             </div>
             <div className="flex justify-between items-center lg:flex-row flex-col-reverse mb-4">
               <div className="lg:pl-36 lg:!pr-0 lg:w-1/2 sm:w-3/4 w-11/12 md:px-16 sm:px-7 px-3">
-                <table>
-                  <thead>
+                <table className="rounded-md border border-solid border-gray-300">
+                  <thead className="rounded-md">
                     <tr>
-                      <th className="px-4 py-2 text-gray-100 border border-r-0 w-64">
+                      <th className="px-4 py-2 text-gray-700 text-sm w-50">
                         Light Background
                       </th>
-                      <th className="px-4 py-2 text-gray-100 border border-l-0">
+                      <th className="px-4 py-2 text-gray-700 text-sm">
                         Embed Snippet
                       </th>
                     </tr>
@@ -102,28 +102,28 @@ export default function LogoSection() {
                   <tbody>
                     {logo_list.dark.map((logo, index) => (
                       <tr key={index}>
-                        <td className="px-4 py-2 text-gray-100 border border-r-0 bg-white-100">
+                        <td className={`px-4 py-2 text-gray-100 bg-white-100 ${Object.keys(logo_list.dark).length - 1 != index ? 'border border-r-0 border-l-0': ''}`}>
                           <img src={`/img/media/logos/${logo.name}`} height={logo.height} />
                         </td>
-                        <td className="px-4 py-2 text-gray-100 border border-l-0 bg-white-100">
+                        <td className={`px-4 py-2 text-gray-100 bg-white-100 ${Object.keys(logo_list.dark).length - 1 != index ? 'border border-r-0 border-l-0': ''}`}>
                           <CodeBlock className="language-html max-w-sm mb-0">
                             {getEmbed(logo)}
                           </CodeBlock>
                         </td>
                       </tr>
                     ))}
-                    
+
                   </tbody>
                 </table>
               </div>
-              <div className="lg:w-1/2 w-full lg:mb-0 mb-5 flex justify-center items-center">
-                <table>
-                  <thead>
+              <div className="lg:w-1/2 w-full lg:mb-0 mb-5 flex ml-2">
+                <table className="rounded-md border border-solid border-gray-300">
+                  <thead className="rounded-md">
                     <tr>
-                      <th className="px-4 py-2 text-gray-100 border border-r-0 w-64">
+                      <th className="px-4 py-2 text-gray-700 text-sm w-64">
                         Dark Background
                       </th>
-                      <th className="px-4 py-2 text-gray-100 border border-l-0">
+                      <th className="px-4 py-2 text-gray-700 text-sm">
                         Embed Snippet
                       </th>
                     </tr>
@@ -131,10 +131,10 @@ export default function LogoSection() {
                   <tbody>
                     {logo_list.light.map((logo, index) => (
                       <tr key={index} >
-                        <td className="px-4 py-2 text-gray-100 border border-r-0 bg-black-200">
+                        <td className={`px-4 py-2 text-gray-100 bg-black-200 ${Object.keys(logo_list.light).length - 1 != index ? 'border border-r-0 border-l-0': ''}`}>
                           <img src={`/img/media/logos/${logo.name}`} height={logo.height} />
                         </td>
-                        <td className="px-4 py-2 text-gray-100 border border-l-0 bg-white-100">
+                        <td className={`px-4 py-2 text-gray-100 bg-white-100 ${Object.keys(logo_list.light).length - 1 != index ? 'border border-r-0 border-l-0': ''}`}>
                           <CodeBlock className="language-html max-w-sm mb-0">
                             {getEmbed(logo)}
                           </CodeBlock>
