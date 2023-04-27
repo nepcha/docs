@@ -56,10 +56,10 @@ export default function BadgeSection() {
       <div className="lg:mt-16 mt-16 lg:px-36 md:px-16 sm:px-7 px-5">
         <div className="flex flex-col">
             <div className="flex flex-col justify-center items-center mb-16">
-                <h3 className="font-semibold sm:text-xl text-base text-purple-100 mb-px"> 
+                <h3 className="font-semibold sm:text-xl text-base text-purple-100 mb-px">
                   The Nepcha badge
                 </h3>
-                <h2 className="font-extrabold lg:text-4xl md:text-3xl sm:text-2xl text-xl lg:leading-lg text-gray-200 text-center max-w-2xl"> 
+                <h2 className="font-extrabold lg:text-4xl md:text-3xl sm:text-2xl text-xl lg:leading-lg text-gray-200 text-center max-w-2xl">
                   Nepcha badges for use on social media and other digital platforms
                 </h2>
                 <p className="text-gray-100 font-noto sm:text-lg text-sm sm:leading-sm text-center max-w-xl mb-8 mt-2">
@@ -67,13 +67,13 @@ export default function BadgeSection() {
                 </p>
             </div>
             <div className="flex justify-center items-center">
-              <table>
-                <thead>
+              <table className="rounded-md border border-solid border-gray-300">
+                <thead className="rounded-md">
                   <tr>
-                    <th className="px-4 py-2 text-gray-100 border border-r-0 w-64">
+                    <th className="px-4 py-2 text-sm text-gray-700 w-64">
                       Badge
                     </th>
-                    <th className="px-4 py-2 text-gray-100 border border-l-0">
+                    <th className="px-4 py-2 text-sm text-gray-700">
                       Embed Snippet
                     </th>
                   </tr>
@@ -81,10 +81,10 @@ export default function BadgeSection() {
                 <tbody>
                   {items.dark.map((logo, index) => (
                     <tr key={index}>
-                      <td className={`px-4 py-2 text-gray-100 border border-r-0 ${logo.background ? logo.background : 'bg-white-100'}`}>
+                      <td className={`px-4 py-2 text-gray-100 ${Object.keys(items.dark).length - 1 != index ? 'border border-r-0 border-l-0': ''} ${logo.background ? logo.background : 'bg-white-100'}`}>
                         <img src={`/img/media/badges/${logo.name}`} height={logo.height} />
                       </td>
-                      <td className="px-4 py-2 text-gray-100 border border-l-0 bg-white-100">
+                      <td className={`px-4 py-2 text-gray-100 ${Object.keys(items.dark).length - 1 != index ? 'border border-r-0 border-l-0': ''} bg-white-100`}>
                         <CodeBlock className="language-html max-w-sm mb-0">
                           {getEmbed(logo)}
                         </CodeBlock>
