@@ -109,8 +109,12 @@ const config = {
           {
             type: 'html',
             position: 'right',
+            value: '<a href="https://app.nepcha.com/login" class="block antialiased font-roboto text-sm leading-normal text-black-100 p-1 pl-4 font-bold border">Login</a>',
+          },
+          {
+            type: 'html',
+            position: 'right',
             value: '<a href="https://app.nepcha.com/register" class="block w-full font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-white-100 hover:text-white-100 hover:no-underline shadow-md hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none text-xs py-3 px-6 rounded-lg bg-black-200 hover:shadow-black-200 text-sm w-32 no-underline">Sign Up</a>',
-
           },
         ],
       },
