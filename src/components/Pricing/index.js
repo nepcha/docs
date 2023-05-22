@@ -54,11 +54,6 @@ class Pricing extends React.Component {
                             <span className="inline-flex text-gray-100 text-base font-noto font-medium">
                                 <img src="/img/checkmark.svg" className="mr-2" />
                                 <span>
-                                    <span className="font-bold">1 </span>User </span>
-                            </span>
-                            <span className="inline-flex text-gray-100 text-base font-noto font-medium">
-                                <img src="/img/checkmark.svg" className="mr-2" />
-                                <span>
                                     <span className="font-bold">10 </span>Websites </span>
                             </span>
                         </div>
@@ -92,11 +87,6 @@ class Pricing extends React.Component {
                             <span className="inline-flex text-gray-100 text-base font-noto font-medium">
                                 <img src="/img/checkmark.svg" className="mr-2" />
                                 <span>
-                                    <span className="font-bold">10 </span>Users </span>
-                            </span>
-                            <span className="inline-flex text-gray-100 text-base font-noto font-medium">
-                                <img src="/img/checkmark.svg" className="mr-2" />
-                                <span>
                                     <span className="font-bold">100 </span>Websites </span>
                             </span>
                             <span className="inline-flex text-gray-100 text-base font-noto font-medium">
@@ -105,8 +95,8 @@ class Pricing extends React.Component {
                             </span>
                         </div>
                     </div>
-                    <a href="mailto:hello@nepcha.com" className="block w-full font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-white-100 shadow-md hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none text-xs py-3 px-4 rounded-lg bg-black-200 hover:shadow-black-200 text-sm mb-5">
-                        Contact Us
+                    <a href="https://app.nepcha.com/user/account/settings" className="block w-full font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-white-100 shadow-md hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none text-xs py-3 px-4 rounded-lg bg-black-200 hover:shadow-black-200 text-sm mb-5">
+                       Start now
                     </a>
                 </div>
                 <div className="border border-gray-300 bg-white-100 hover:drop-shadow shadow-black-300 px-5 rounded-md flex flex-col justify-between xl:w-[29%]">
@@ -132,11 +122,6 @@ class Pricing extends React.Component {
                                 <img src="/img/checkmark.svg" className="mr-2" />
                                 <span>
                                     <span className="font-bold">1,000,000+ </span>views/month </span>
-                            </span>
-                            <span className="inline-flex text-gray-100 text-base font-noto font-medium">
-                                <img src="/img/checkmark.svg" className="mr-2" />
-                                <span>
-                                    <span className="font-bold">10+ </span>User </span>
                             </span>
                             <span className="inline-flex text-gray-100 text-base font-noto font-medium">
                                 <img src="/img/checkmark.svg" className="mr-2" />
