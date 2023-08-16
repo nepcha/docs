@@ -22,17 +22,15 @@
   line-height: 1.11;
 }
 
-.navbar__logo img {
-      position: relative;
-    top: 20px;
-}
-
 .navbar__logo {
   opacity: 0;
-  animation: fadeIn 1s ease forwards, delayShow 3s ease forwards;
+  animation: fadeIn 4s ease forwards;
 }
 
 @keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
   to {
     opacity: 1;
   }
