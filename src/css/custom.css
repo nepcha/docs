@@ -33,6 +33,17 @@
   padding: 0;
 }
 
+.navbar__logo img {
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
 .plugin-pages:not(.mdx-wrapper) *,
 .plugin-pages:not(.mdx-wrapper):after,
 .plugin-pages:not(.mdx-wrapper):before{
