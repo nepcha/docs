@@ -23,7 +23,8 @@
 }
 
 .navbar__logo img {
-  display: block !important; 
+      position: relative;
+    top: 20px;
 }
 
 .navbar__logo {
