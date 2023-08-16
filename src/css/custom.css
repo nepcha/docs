@@ -35,10 +35,17 @@
 
 .navbar__logo img {
   opacity: 0;
+  animation: fadeIn 2s ease forwards;
 }
 
 [data-rh="class"] .navbar__logo img {
   opacity: 1;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
 }
 
 .plugin-pages:not(.mdx-wrapper) *,
