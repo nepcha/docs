@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import clsx from "clsx";
 import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
@@ -48,6 +48,19 @@ const FeatureList = [
 
 function LandingContent() {
   const { siteConfig } = useDocusaurusContext();
+
+  useEffect(() => {
+    const handleImageLoad = () => {
+      const img = document.getElementsByClassName("themedImage_ToTc");
+      img.style.opacity = "0";
+
+      setTimeout(() => {
+        img.style.opacity = "1";
+      }, 5000);
+    };
+
+    handleImageLoad();
+  }, []);
 
   return (
     <div>
