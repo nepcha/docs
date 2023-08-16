@@ -52,11 +52,13 @@ function LandingContent() {
   useEffect(() => {
     const handleImageLoad = () => {
       const img = document.getElementsByClassName("themedImage_ToTc");
-      img.style.opacity = "0";
+      if (img) {
+        img.style.opacity = "0";
 
-      setTimeout(() => {
-        img.style.opacity = "1";
-      }, 5000);
+        setTimeout(() => {
+          img.style.opacity = "1";
+        }, 5000);
+      }
     };
 
     handleImageLoad();
