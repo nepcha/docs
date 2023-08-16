@@ -49,6 +49,19 @@ const FeatureList = [
 function LandingContent() {
   const { siteConfig } = useDocusaurusContext();
 
+  useEffect(() => {
+    const handleImageLoad = () => {
+      const img = document.querySelector(".navbar__logo img");
+      img.style.opacity = "0";
+
+      setTimeout(() => {
+        img.style.opacity = "1";
+      }, 5000);
+    };
+
+    handleImageLoad();
+  }, []);
+
   return (
     <div>
       <div className="w-full max-w-screen-3xl overflow-hidden z-10 tailwind-layout mx-auto">
