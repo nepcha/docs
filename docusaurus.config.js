@@ -102,6 +102,55 @@ const config = {
             value: '<a href="/docs" class="block antialiased font-roboto text-sm leading-normal text-black-100 p-1 font-bold">Documentation</a>',
           },
           {
+            type: 'dropdown',
+            label: 'Solutions',
+            position: 'right',
+            items: [
+              // {
+              //   type: 'html',
+              //   className: 'mx-2 my-2',
+              //   value: 'Use Cases',
+              // },
+              // {
+              //   type: 'html',
+              //   value: '<hr class="dropdown-separator">',
+              // },
+              {
+                label: 'Ecommerce',
+                to: '/ecommerce',
+              },
+              {
+                label: 'Startups',
+                to: '/startups',
+              },
+              {
+                label: 'Enterprise',
+                to: '/small-medium-enterprises',
+              },
+              
+              {
+                label: 'GOV',
+                to: '/gov-institutions',
+              },
+              {
+                label: 'Agencies',
+                to: '/development-agencies',
+              },
+              {
+                label: 'General',
+                to: '/general-websites',
+              },
+              {
+                label: 'Open Collective',
+                to: '/open-collective',
+              },
+              {
+                label: 'Web 3',
+                to: '/web3-websites',
+              },
+            ],
+          },
+          {
             type: 'html',
             position: 'right',
             value: '<a href="/#pricing" class="block antialiased font-roboto text-sm leading-normal text-black-100 p-1 font-bold">Pricing</a>',
