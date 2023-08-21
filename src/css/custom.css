@@ -23,7 +23,7 @@
 }
 
 .themedImage--dark_i4oU {
-  display: none;
+  display: none !important;
 }
 
 .plugin-pages:not(.mdx-wrapper):not(.mdx-wrapper) footer.footer {
