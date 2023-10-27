@@ -29,6 +29,7 @@ module.exports = {
       blue: {
         100: "#1A237E",
         200: "#1E48E4",
+        600: "#2563EB"
       },
       purple: {
         100: "#3534E5",
@@ -39,6 +40,7 @@ module.exports = {
         300: "#DDDFE5",
         400: "#D8D8D8",
         500: "#6b7280",
+        600: "#E5E5E5",
       },
     },
     extend: {
@@ -92,5 +94,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 };
