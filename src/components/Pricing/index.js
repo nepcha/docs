@@ -196,22 +196,20 @@ export default function Pricing() {
                     className={"rounded-md"}
                   >
                     
-                    <div className={"flex flex-row items-center rounded-md justify-center py-3 text-md font-semibold leading-5 hover:bg-purple-100 hover:text-white-100" +
+                    <div className={"flex flex-row items-center rounded-md py-3 text-md font-semibold leading-5 hover:bg-purple-100 hover:text-white-100" +
                         (selectedIndex === i
                           ? " bg-purple-100 text-white-100"
                           : " text-purple-100")
                       }
                     >
                         
-                        <div class="flex-none w-1/2">
-                            <div>
-                                <h5 class="mb-0 font-bold dark:text-white">
-                                {getPrice(category)}
-                                </h5>
-                                <p class="mb-0 dark:text-white dark:opacity-60">
-                                  <span class="text-sm font-bold leading-normal">{getVisits(category)} visits</span>
-                                </p>
-                            </div>
+                        <div class="flex-none w-1/2 text-left ml-2">
+                          <h5 class="mb-0 font-bold dark:text-white">
+                            {getPrice(category)}
+                          </h5>
+                          <p class="mb-0 dark:text-white dark:opacity-60">
+                            <span class="text-sm font-bold leading-normal">{getVisits(category)} visits</span>
+                          </p>
                         </div>
                     </div>
                   </Tab>
@@ -242,19 +240,19 @@ export default function Pricing() {
                           </h3>
                         </li>
                       ))}
-                        <li className="rounded-md justify-center">
-                            <span className="flex w-full justify-center">
+                        <li className="rounded-md">
+                            <span className="flex w-full">
                             {
                              selectedIndex === 5 ? (
-                                <a href="mailto:hello@nepcha.com" className="font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-white-100 shadow-md hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none text-xs py-3 px-4 rounded-lg bg-purple-100 hover:shadow-purple-200 justify-center">
+                                <a href="mailto:hello@nepcha.com" className="font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-white-100 shadow-md hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none text-xs py-3 px-4 rounded-lg bg-purple-100 hover:shadow-purple-200">
                                     Contact us
                                 </a>
                             ) : (
-                              <a href="https://app.nepcha.com/user/account/settings" className="font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-white-100 shadow-md hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none text-xs py-3 px-4 rounded-lg bg-purple-100 hover:shadow-purple-200 justify-center">
+                              <a href="https://app.nepcha.com/user/account/settings" className="font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-white-100 shadow-md hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none text-xs py-3 px-4 rounded-lg bg-purple-100 hover:shadow-purple-200">
                                 Start now
                               </a>
                               )
-}
+                            }
                             </span>
                           </li>
                     </ul>
