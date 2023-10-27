@@ -174,3 +174,8 @@ footer.footer {
 #__docusaurus {
   background-color: #fcfcfc;
 }
+
+#pricing .border {
+  border: 1px solid;
+  padding: 1.25rem !important
+}
