@@ -5,7 +5,7 @@ export default function Pricing() {
     "Premium 1": [
       {
         id: 1,
-        title: "Up to 20.000 visits"
+        title: "Up to 20,000 visits"
       },
       {
         id: 2,
@@ -27,7 +27,7 @@ export default function Pricing() {
     "Premium 2": [
       {
         id: 1,
-        title: "Up to 100.000 visits",
+        title: "Up to 100,000 visits",
       },
       {
         id: 2,
@@ -49,7 +49,7 @@ export default function Pricing() {
     "Premium 3": [
       {
         id: 1,
-        title: "Up to 200.000 visits",
+        title: "Up to 200,000 visits",
       },
       {
         id: 2,
@@ -71,7 +71,7 @@ export default function Pricing() {
     "Premium 4": [
       {
         id: 1,
-        title: "Up to 500.000 visits",
+        title: "Up to 500,000 visits",
       },
       {
         id: 2,
@@ -156,13 +156,13 @@ export default function Pricing() {
   const getVisits = (type) => {
     switch (type) {
       case "Premium 1":
-        return "20.000";
+        return "20,000";
       case "Premium 2":
-        return "100.000";
+        return "100,000";
       case "Premium 3":
-        return "200.000";
+        return "200,000";
       case "Premium 4":
-        return "500.000";
+        return "500,000";
       case "Premium 5":
         return "5 mil";
       case "Premium 6":
